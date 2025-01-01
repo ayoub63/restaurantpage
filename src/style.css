@@ -217,8 +217,69 @@ align-items: center;
 gap: 20px;
 justify-content: center;}
 
+.about-mid {
+		padding-top: 120px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		justify-content: center; /* Adjust to be more than or equal to the height of your navbar */
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+	
+#about-title {
+	color: var(--primary_btn_footer);
+	font-size: 50px;
+}
+
+.upper-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	gap: 10px;
+}
 
 
+.card-about {
+	border: 1px solid black;
+	width: 80%;
+	height: 600px;
+	border-radius: 30px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;	
+}
+
+.card-about img {
+	width: 100%;
+	height:50%;
+	object-fit: cover;
+}
+
+.card-title {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 50px;
+	color: var(--primary_btn_footer);
+}
+
+.lower-about{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	margin: 5px;
+}
+
+.card-text {
+	font-size: 25px;
+	margin: 5px
+}
+
+#title-des {
+	font-size: 20px;
+}
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -233,6 +294,7 @@ ul{
 .footer{
 	background-color: var(--primary_btn_footer);
     padding: 70px 0;
+	margin-top: 20px;
 }
 .footer-col{
    width: 25%;
