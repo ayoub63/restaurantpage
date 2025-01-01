@@ -152,6 +152,7 @@ nav {
 	border: 1px solid black;
 	border-radius: 20px;
 	overflow: hidden;
+	object-fit: contain;
 	
 }
 
@@ -280,6 +281,8 @@ justify-content: center;}
 #title-des {
 	font-size: 20px;
 }
+
+
 .container{
 	max-width: 1170px;
 	margin:auto;
