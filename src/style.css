@@ -44,6 +44,8 @@ table {
 
 :root { 
     --primary_btn_footer : #fa6400; 
+	--secondry-bg: aliceblue;
+	
 }
 
 * {
@@ -283,6 +285,116 @@ justify-content: center;}
 }
 
 
+.large-item , .itemgrid {
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 600px;
+    margin: 20px auto;
+    min-width: 650px;
+    overflow: hidden;
+    width: 80%;
+	margin-top: 100px;
+}
+
+.menu-container {
+	object-fit: cover;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+}
+
+.right-mini-one {
+	align-items: center;
+    display: flex;
+    height: 25%;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.large-item img {
+	object-fit: cover;
+    width: 50%;
+}
+
+.right-side {
+	display: flex;
+	flex-direction: column;	
+	}
+
+
+
+.right-bottom {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+	
+
+
+.right-top {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 40%;
+	gap: 20px;
+}
+
+.right-top button {
+	width: 200px;
+}
+
+
+.itemgrid {
+	display: flex;
+	border-radius: 20px;
+	object-fit: cover;
+	gap: 20px;
+	padding: 10px;
+}
+
+.item {
+	width: 49%;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.item img {
+	height: 50%;
+	width: 100%;
+    object-fit: cover;
+}
+
+.mini-mini {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.menu-container button {
+	align-items: center;
+  background-clip: padding-box;
+  background-color: var(--primary_btn_footer);
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+}
 .container{
 	max-width: 1170px;
 	margin:auto;
