@@ -49,13 +49,28 @@ table {
 * {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
-    font-style: normal;
+	font-style: normal;
+}
+.right
+{
+	margin-right: 30px;
+}
+.left {
+	margin-left: 30px;
 }
 nav {
     display: flex;
     height: 100px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+	width: 100%;
+ 	background-color: #fff;
+ 	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: 1000;
+	box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
+
 }
 
  #kfc{
@@ -65,7 +80,7 @@ nav {
 
 
 /* CSS */
-.nav-btn {
+.nav-btn, .mid-btns, .lower-btn {
   align-items: center;
   background-clip: padding-box;
   background-color: var(--primary_btn_footer);
@@ -94,6 +109,83 @@ nav {
   width: auto;
 }
 
+.mid-btns {
+	display: flex;
+	width: 80%;
+	font-size: 30px;
+	gap: 15px;
+}
+
+.btns {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+}
+
+.mid-section {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.img-mid {
+	width: 50%;
+}
+
+.lower {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 10px;
+	width: 25%;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	overflow: hidden;
+	
+}
+
+.lower-img {
+	height: 50%;
+}
+
+
+
+.lower-card {
+	display: flex;
+	flex-direction: column;
+	align-items: space-evenly;
+	background-color:beige;
+	height: 50%;
+	}
+
+.text {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.lower button {
+	align-self: flex-end;
+	position: relative;
+	bottom: -40px;
+	margin-right: 20px;
+}
+
+
+
 .nav-btn:hover,
 .nav-btn:focus {
   background-color: var(--primary_btn_footer);
@@ -111,7 +203,6 @@ nav {
 }
 
 
-
 header {
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2)
 }
@@ -123,6 +214,7 @@ header {
 
 .logo{display: flex;
 align-items: center;
+gap: 20px;
 justify-content: center;}
 
 

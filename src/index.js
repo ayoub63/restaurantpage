@@ -1,5 +1,5 @@
-import {page} from "./home.js"
+import {homepage} from "./home.js"
 import "./style.css";
 
 
-document.addEventListener("DOMContentLoaded", page);
+document.addEventListener("DOMContentLoaded", homepage);
